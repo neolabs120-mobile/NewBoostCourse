@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/main_background"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/image1"/>
+
+    <TextView
+        android:id="@+id/movie_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:text="1. 군도"/>
+
+    <TextView
+        android:id="@+id/movie_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:text="예매율 61.6% | 15세 관람가 | D-1"/>
+
+    <Button
+        android:id="@+id/movie_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF7F00"
+        android:text="상세보기"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
